@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from solvation_shells_utils import *
+from equilibrium_analysis import *
 
 plt.rcParams['font.size'] = 12
 
@@ -13,8 +13,8 @@ plt.rcParams['font.size'] = 12
 if __name__ == '__main__':
 
     # some inputs
-    tpr = 'mda_readable.tpr'
-    xtc = 'prod.xtc'
+    tpr = '../../data/unbiased_MD/NaCl/OPC3/Sengupta_etal/C0.2M/P1bar/prod.tpr'
+    xtc = '../../data/unbiased_MD/NaCl/OPC3/Sengupta_etal/C0.2M/P1bar/prod.xtc'
     
     cation = 'resname NA'
     anion = 'resname CL'

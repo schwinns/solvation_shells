@@ -1,5 +1,4 @@
 #!/bin/bash
-#SBATCH -A chm230020p
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=16
 #SBATCH -t 03:00:00

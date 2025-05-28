@@ -1,15 +1,15 @@
 # Script to run the polyhedron size analysis on umbrella simulations
 
 import matplotlib.pyplot as plt
-from solvation_shells_utils import *
+from equilibrium_analysis import *
 import pickle
 import time
 
 if __name__ == '__main__':
 
     # some inputs
-    tpr = 'mda_readable.tpr'
-    xtc = 'prod.xtc'
+    tpr = '../../data/unbiased_MD/NaCl/OPC3/Sengupta_etal/C0.2M/P1bar/prod.tpr'
+    xtc = '../../data/unbiased_MD/NaCl/OPC3/Sengupta_etal/C0.2M/P1bar/prod.xtc'
     ci = 'NA'
     ai = 'CL'
     step = 1
